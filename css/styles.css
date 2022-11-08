@@ -182,3 +182,13 @@ img{
     padding-bottom: 3rem;
     margin-top: 4rem;
 }
+
+@media (min-width: 768px) {
+    .sobre-nosotros{
+        display: flex;
+    }
+    .sobre-nosotros__imagen,
+    .sobre-nosotros__texto{
+        flex-basis: 50%;
+    }
+}
